@@ -2,6 +2,10 @@ from sys import argv
 
 game, first, last, age, country = argv
 
+def over(why):
+    print why, "Good job %s %s!" %(first,last)
+    exit(0)
+
 def start():
     print "*************************************************"
     print "         Welcome to Diary of the Void:    "
@@ -16,13 +20,14 @@ def start():
     print "Let the journey begin...\n"
     raw_input()
     
+    
     print "The year is 2012. You are home alone drinking beer on a friday night."
     print "The time?"
     raw_input()
     print "A quarter 'till midnight."
     raw_input()
     print "The alcohol's flowing full force through your blood. You begin feeling tipsy."
-    print "You stand up from the couch, in front of the television."
+    print "You stand up from the couch in front of the television."
     print "But you fall back down, unable to stand up."
     raw_input()
     print "You've simply been drinking too much."
@@ -60,11 +65,11 @@ def start():
     print "'But I want to go with.'"
     print "'Courage my love, but this time I can't. Remember I've got no vacation time left this year.\nAnd our child needs someone.'\n'Now, %s, please, Christmas is coming soon. It would be nice to bring \nnice pictures to our child, Robert!" %first
     print "'Ok... True.'"
-    print "'Once we're in 2015, I'll take two weeks off so that you and I can travel somewhere.\nTrust me, go somewhere you've always dreamnt of going to!'"
+    print "'Once we're in 2013, I'll take two weeks off so that you and I can travel somewhere.\nTrust me, go somewhere you've always dreamnt of going to!'"
     raw_input()
     print "Life is short %s, life is short." %first
     raw_input()
-    print "\nFour day later, %s has chosen his destination, and prepared for the trip."
+    print "\nFour days later, %s has chosen his destination, and prepared his luggage for the trip."
     print "You are now ready to leave."
     raw_input()
     print "Before leaving for a week..."
@@ -73,8 +78,7 @@ def start():
     raw_input()
     print "You reach for the main door, what is your final decision?"
     
-    
-    
+        
     while True:
         next = raw_input("> ")
     #if "stay" in next: 
