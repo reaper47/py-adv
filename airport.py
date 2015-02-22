@@ -53,7 +53,7 @@ def airtrance1():
             print "You decide to approach the tourist information center."
             print "Two people lie behind the counter: a woman and a man."
             
-            info=raw_input("Who do you ask? ")
+            info=raw_input("To Whom do you ask? ")
             
             if info == "woman":
                 print "'Greetings, and a warm welcome to %s's greatest airport!'\n" %country
@@ -71,9 +71,9 @@ def airtrance1():
             else:
                 print "'Sup traveller? Welcome to %s's majestic airport!'"  %country
                 raw_input()
-                print "'Hey, It's my first time travelling, and I am not too familiar of what to do. Can you guide me?'"
+                print "'Hey, It's my first time travelling, and I am not too familiar of what I'm supposed to do. Can you guide me?'"
                 raw_input()
-                print "'Well, I can't hold your hand, and guide you all the way through. But, I can tell certainly tell you what to do.'"
+                print "'Well, I can't hold your hand and guide you all the way through, but I cetainly can tell you what to do.'"
                 print "'Basically, join that queue over there.'"
                 raw_input()
                 print "'Ok thanks.'"
@@ -95,7 +95,7 @@ def airport1():
     print "*************************************************"  
     print "You arrive at %s's most majestic airport." %country
     print "The airport is so big, and majestic it scares you."
-    print "Upon arriving at the main entrance, what shall you do?"
+    print "Upon arrival at the main entrance, what shall you do?"
      
     while True 
     next = raw_input("> ")
@@ -110,7 +110,7 @@ def airport1():
             airtrance1()
             
         else:
-            print "*%s gazes at the airport's exterieur architecture.*
+            print "*%s gazes at the airport's exterieur architecture.*" %first
             print "'Man, this airport architecture has to be some of the best I've seen... majestic, yet scary at the same time. A true art!'"
             print "*shrugs*"
             print "'Ok, I gotta choose what I want to do."
