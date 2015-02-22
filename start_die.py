@@ -1,4 +1,5 @@
 from sys import argv
+from sys import exit
 
 game, first, last, age, country = argv
 
@@ -9,7 +10,7 @@ def over(why):
 def start():
     print "*************************************************"
     print "         Welcome to Diary of the Void:    "
-    print "   Chapter 1 - Misfortunate soul of the abyss!"
+    print "   Chapter 1 - Misfortunate Soul of the Abyss"
     print "*************************************************"     
     raw_input()
     print "%s, greetings!" %first
@@ -88,7 +89,7 @@ def start():
             raw_input()
             print "You leave the house, and drive to the airport."
             True 
-            airport()
+            airport1()
         else:
             print "*I gotta decide something*"  
                  
