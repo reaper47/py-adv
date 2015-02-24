@@ -80,8 +80,8 @@ def air1_counter():
                     print "'Ok cool thank you kind lady!'"
                     print "'I shall go before missing my flight!'"
                     raw_input()
-                    print "'Alright, farewell traveller. Enjoy your trip to %s!'" %dest
-                    vienna()
+                    print "'Alright, farewell traveller. Enjoy your trip to %s!'" %fnl_dest
+                    vienna_terminal()
                     
                 else:
                     
@@ -106,7 +106,7 @@ def air1_counter():
             
             
             
-def air1_causian(): ###
+
 
 
 def airtrance1():
@@ -153,44 +153,46 @@ def airtrance1():
         print "\nThanks... Bye!"
         air1_counter()   
         
-        elif airtrce_list[2] in next:  #airline counter
-            air1_counter()
+    elif airtrce_list[2] in next:  #airline counter
+        air1_counter()
 
             
-        elif airtrce_list[3] in next:  #tourist information center
-            print "You decide to approach the tourist information center."
-            print "Two people lie behind the counter: a woman and a man."
+    elif airtrce_list[3] in next:  #tourist information center
+        print "You decide to approach the tourist information center."
+        print "Two people lie behind the counter: a woman and a man."
             
-            info=raw_input("To Whom do you ask? ")
+        info=raw_input("To Whom do you ask? ")
             
-            if info == "woman":
-                print "'Greetings, and a warm welcome to %s's greatest airport!'\n" %country
-                print "'Well hello there charming lady!'"
-                print "'I am new here, and I have never travelled. Where do I begin?'"
-                raw_input()
-                print "'It's rather simple young man.'\n"
-                print "'Basically, join the queue to your selected airline. The rest will fall to place like a feather settling onto the ground'"
-                raw_input()
-                print "'Quite poetic you are! I like it.'"
-                print "'Anyways, thank you for the information! I shall go.'\n Farewell young lady!'"
-                print "'Good day young man!'"
-                air1_counter()
+        if info == "woman":
+            print "'Greetings, and a warm welcome to %s's greatest airport!'\n" %country
+            print "'Well hello there charming lady!'"
+            print "'I am new here, and I have never travelled. Where do I begin?'"
+            raw_input()
+            print "'It's rather simple young man.'\n"
+            print "'Basically, join the queue to your selected airline. The rest will fall to place like a feather settling onto the ground'"
+            raw_input()
+            print "'Quite poetic you are! I like it.'"
+            print "'Anyways, thank you for the information! I shall go.'\n Farewell young lady!'"
+            print "'Good day young man!'"
+            air1_counter()
             
-            else:
-                print "'Sup traveller? Welcome to %s's majestic airport!'"  %country
-                raw_input()
-                print "'Hey, It's my first time travelling, and I am not too familiar of what I'm supposed to do. Can you guide me?'"
-                raw_input()
-                print "'Well, I can't hold your hand and guide you all the way through, but I cetainly can tell you what to do.'"
-                print "'Basically, join that queue over there.'"
-                raw_input()
-                print "'Ok thanks.'"
-                raw_input()
-                print "'Oh, and make sure it is the right queue. That latter is your desired airline.'"
-                raw_input()
-                print "'Alright, thanks. Bye.'"
-                print "'Wishes to you traveller! Goodbye.'"
-                air1_counter()
+        else:
+            print "'Sup traveller? Welcome to %s's majestic airport!'"  %country
+            raw_input()
+            print "'Hey, It's my first time travelling, and I am not too familiar of what I'm supposed to do. Can you guide me?'"
+            raw_input()
+            print "'Well, I can't hold your hand and guide you all the way through, but I cetainly can tell you what to do.'"
+            print "'Basically, join that queue over there.'"
+            raw_input()
+            print "'Ok thanks.'"
+            raw_input()
+            print "'Oh, and make sure it is the right queue. That latter is your desired airline.'"
+            raw_input()
+            print "'Alright, thanks. Bye.'"
+            print "'Wishes to you traveller! Goodbye.'"
+            air1_counter()
+            
+    def air1_causian(): ###
                 
             
                 
