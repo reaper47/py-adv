@@ -1,5 +1,112 @@
 def air1_counter():
-def air1_causian():
+
+    dests=['Berlin','Paris','Vienna','Prague','United States']
+    
+    print "*%s sees a queue to the counter and decides to line up*" %first
+    raw_input()
+    print "*10 minutes later..."
+    raw_input()
+    print "'Welcome to %s's greatest aiport!'" %country
+    # ADD PATHS HERE AS WRITTEN ON PAPER
+    print "'Hey 'maam sup? So I  finally decided to travel.'"
+    print "'Please hand me your check-in ticket.'"
+    print "'What is that?'"
+    print "*sigh* You are supposed to check-in at that terminal over there... Check-in is basically your flight ticket scanned by the machine.'"
+    raw_input()
+    print "'Oh...'"
+    raw_input()
+    print "'No worries though! I am here to help.'"
+    print "'First things first, please show me your flight receipt.'"
+    print "*Having no idea what a flight receipt is... you: *"
+            
+    receipt = raw_input("> ")
+            
+    if receipt == "pull out a random receipt" or "show a random receipt" or "pull out a receipt" or "show a receipt":
+        print "You show a random receipt to the clerk, thinking it'll do."
+        print "*Counter lady laughs out loud*"
+        print "The funny type you are haha! Unfortunately, this is not an airplane ticket receipt."
+        raw_input()
+        print "'Well, at least I tried...'"
+        raw_input()
+        print "'Ok so let's do this the old fashion way.'"
+        print "'We can purchase a ticket on the spot.'"
+        print "'I cannot guarantee seat and destination availability though.'"
+        raw_input()
+        print "'So what am I supposed to do...?'"
+        print "'I gotta tell you this is my first time travelling...'"
+        raw_input()
+        print "'No problem!'"
+        print "'Where would you wish to go?'"
+               
+        dest = raw_input("Choose your travel destination: ")
+              
+        if dest != ("Prague" or "Berlin" or "Paris" or "United States" or "Vienna"):
+            print "'I'm sorry traveller, but no seats are available for this destination today'"
+            print "'Oooohhh.... kkk. What flights are available today?'"
+            print "'Lemme check'"
+            raw_input()
+            print "*The counter lady scans through the flight database for current available flights with empty seats...*"
+            raw_input()
+            print "'Ding!'"
+            raw_input()
+            print "'Today's flights: %s'" %dests
+            print "'Now, choose your destination, and we shall begin transaction.'"
+                
+            fnl_dest = raw_input("> ")
+                  
+            if  "Vienna" in fnl_dest:
+                print "'I want to travel to Vienna!'"
+                print "'How long?'"
+                        
+                long = raw_input("> ")
+                      
+                if long == "one week" or "seven days":
+                    print "'%s'" %long
+                    print "'Perfect.\nTotal price is 1241$.'"
+                    print "*%s performs transaction*" %first
+                    print "'Transaction DONE!!! I BOUGHT MY FIRST PLANE TICKET EVER!!!'"
+                    raw_input()
+                    print "'Congratulations! Now, please hand me your passport...'"
+                    print "*Counter lady grabs %s's passport, opens the first page, compares passport picture to real life*"
+                    print "*As she hands back the passport to %s...* You look like a criminal, but whatever...'"
+                    print "'Here is your flight ticket. Do not lose it. I repeat. DO NOT LOSE IT.'"
+                    print "'Now, lets check-in your luggage...'"
+                    print "%s hands over luggage, and counter lady scans it and sends sends it through the luggage dispatch.*"
+                    raw_input()
+                    print "'%s, %s %s. Everything's set, and you are ready to pass the security gate, and wait for your flight to %s!'" %(last, first, last, dest)
+                    print "'Flight departs in three hours.'"
+                    print "'Simply go where I'm pointing, and everything will go great!'"
+                    raw_input()
+                    print "'Ok cool thank you kind lady!'"
+                    print "'I shall go before missing my flight!'"
+                    raw_input()
+                    print "'Alright, farewell traveller. Enjoy your trip to %s!'" %dest
+                    vienna()
+                    
+                else:
+                    
+                
+            elif "Paris" in fnl_dest:
+            
+            elif "Berlin" in fnl_dest:
+            
+            elif "Prague" in fnl_dest:
+            
+            elif "United States" in fnl_dest:  
+            
+            else:     
+                            
+                        
+                        
+                    
+        else:    #else receipt      
+               
+                
+           
+            
+            
+            
+def air1_causian(): ###
 
 
 def airtrance1():
@@ -47,7 +154,8 @@ def airtrance1():
         air1_counter()   
         
         elif airtrce_list[2] in next:  #airline counter
-            ################## HERE
+            air1_counter()
+
             
         elif airtrce_list[3] in next:  #tourist information center
             print "You decide to approach the tourist information center."
