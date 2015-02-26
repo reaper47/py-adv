@@ -8,7 +8,7 @@ The game is divided into 7 chapters being:
 
 Chapter 1 - Misfortunate Soul of the Abyss
 
-Chapter 2 - The Aiport of %country  ---working title--- 
+Chapter 2 - From Ignorance to Salvation
 
 Chapter 3 - TBA
 
