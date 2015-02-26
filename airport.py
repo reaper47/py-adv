@@ -321,4 +321,5 @@ def airport1():
             print "*%s gazes at the airport's exterieur architecture.*" %first
             print "'Man, this airport architecture has to be some of the best I've seen... majestic, yet scary at the same time. A true art!'"
             print "*shrugs*"
-            print "'Ok, I gotta choose what I want to do."                           
+            print "'Ok, I gotta choose what I want to do."
+                                       
