@@ -1,6 +1,9 @@
+def tml():
+
+
 def air1_counter():
 
-    dests=['Berlin','Paris','Vienna','Prague','United States','Alamty']
+    dests=['Berlin','Paris','Vienna','Prague','United States']
     
     print "*%s sees a queue to the counter and decides to line up*" %first
     raw_input()
@@ -91,7 +94,7 @@ def air1_counter():
             
         receipt = raw_input("> ")
             
-        if receipt == "pull out a random receipt" or "show a random receipt" or "pull out a receipt" or "show a receipt":
+        if receipt == "pull out a random receipt" or "show a random receipt" or "pull out a receipt" or "show a receipt" or "show receipt":
             print "You show a random receipt to the clerk, thinking it'll do."
             print "*Counter lady laughs out loud*"
             print "The funny type you are haha! Unfortunately, this is not an airplane ticket receipt."
@@ -163,7 +166,7 @@ def air1_counter():
                             raw_input()
                             print "'Alright, farewell traveller. Enjoy your trip to %s!'" %fnl_dest
                             True
-                            vienna_tml1()
+                            tml()
                     
                         else:
                             print "'I'm sorry, but there are no flights for %s.'"
@@ -226,7 +229,7 @@ def air1_counter():
                             print "'Alright! I should go. Farewell kind counter lady!'"
                             print "'Farewell traveller, and enjoy your trip!'"
                             True
-                            paris_tml1()
+                            tml()
                                                         
                         else:
                             print "'I'm sorry, but there are no flights for %s.'"
@@ -234,19 +237,161 @@ def air1_counter():
                     
                                              
                 elif "Berlin" in fnl_dest:
-            
+                    print "What good is there in Berlin?"
+                    raw_input()
+                    print "'Berlin. The city once destroyed by the war. Mostly rebuilt from scratch."
+                    print "Berlin. The city that once has seen Hitler's rise and fall."
+                    print "You will find countless historical museums as well as countless holocaust victims."
+                    print "Whilst walking around town, you'll weep as its atmosphere engulfs you."
+                    print "It a city like no ther. You will also discover The futuristic square with a huge television screen."
+                    print "I recommend it.'"
+                    raw_input()
+                    print "'Alright, I wanna travel there!'"
+                    print "'Perfect. Let's get down to business then.'"
+                    print "'How long are you planning your trip?'"  
+                    
+                    long = raw_input("> ")
+                    
+                    while True:
+                    
+                        if long == "one week" or "seven days":
+                            print "'Simply a week ma'am!'"
+                            raw_input()
+                            print "'Alright, perfect. Total's 1121 credits.'"
+                            print "Counter lady hands the debit card machine to %s" % first
+                            print "%s pays the total." % first
+                            print "You hand back the debit card machine to the counter lady."
+                            print "She gives you your airplane ticket."
+                            raw_input()
+                            print "'Alright, next up's the passport, please hand it to me for a second.'"
+                            print "%s hands the passport to the counter lady." % first
+                            print "Counter lady nods, looks at it, stamps a blank page, and hands it back to %s." % first
+                            print "'Alright, next up's the luggage check-in. Please hand me your luggage.'"
+                            print "You hand your luggage to her, and she puts it on the rolling carpet."
+                            raw_input()
+                            print "'Good! Everything's set. Now, simply pass the security gate, then"
+                            print "go to the designated gate of your flight written on your travel ticket."
+                            print "Flight departure is in 2 hours and a half.'"
+                            raw_input()
+                            print "'Well that was quite quick... I mean the process. I thought it"
+                            print "would have taken around 1 hour or something to check-in.'"
+                            print "'Anyways, if I understood correctly, I go up to that security guard then"
+                            print "I go to the Berlin terminal, correct?'"
+                            raw_input()
+                            print "'Correct'"
+                            print "'Well thank you kind counter lady! I appreciate your help.'"
+                            raw_input()
+                            print "'Good day counter lady, farewell!'"
+                            print "'Take care, traveller! Make sure not to turn into a nazi!'"
+                            True
+                            tml()
+                            
+                        else:                        
+                            print "'I'm sorry, but there are no flights for %s.'"
+                            False 
+                        
+                        
                 elif "Prague" in fnl_dest:
+                    print "'Tell me about Prague, young one.'"
+                    raw_input()
+                    print "'One of the oldest cities in the world."
+                    print "'I mean it has not been continuously bombarded during the"
+                    print "second World War. Hence, it has retained its medieval architecture."
+                    print "A truly spectacular city to be in. People love to party over there."
+                    print "There's the Old Town Square where every day, people or bands come animate the crowds."
+                    print "It is truly unique. Plus, there is this astronomical clock built a couple hundred years back.'"
+                    print "'I totally recommend it.'"
+                    raw_input()
+                    print "'Whoah! Now you totally sold me! I really want to go there!'"
+                    print "'You won't regret it! Now, let's get down to business then.'"
+                    print "'How long are you planning your trip?'"                   
+                                       
+                    while True:
+                        long = raw_input("> ")
+                        if long == "one week" or "seven days":
+                            print "'%s kind counter lady!'" % long
+                            print "'Good. So the total's 1438 credits'"
+                            print "Counter lady hands the debit card machine to %s" %first
+                            print "Transaction has been successful, and %s hands it back to her."
+                            raw_input()
+                            print "'Alright, now hand your passport to me, and drop your luggage on the rolling carpet here.'"
+                            print "You hand your passport to counter lady. While she checks stuff inside, you drop your luggage where demanded."
+                            print "'Lucky you! Such a nice stamp this will be in your passport.'"
+                            print "Counter lady presses a blank page in %s's passport." % first
+                            print "She hands it back to her client."
+                            raw_input()
+                            print "'Alright, this is done, and the luggage is done.'"
+                            print "'Ok, so what's next?'"
+                            print "'Next step is to pass the security gates, and then go to the Prague terminal.'"
+                            print "Counter lady gives a plane ticket to her client."
+                            print "'This is your plane ticket. Do not lose it. I repeat. DO NOT LOSE IT.'"
+                            print "'If ever you don't find the Prague terminal, simply check an terminal screen!'"
+                            print "'Any questions?'"
+                            raw_input()
+                            print "'Actually, everything's clear to me!'"
+                            print "'Glad to hear!'"
+                            print "'Now, I should get going... Farewell kind counter lady!'"
+                            print "'Take care traveller, and enjoy going back through time!'"
+                            tml()  
+                            
+                        else:                        
+                            print "'I'm sorry, but there are no flights for %s.'"
+                            False                                        
+                    
             
                 elif "United States" in fnl_dest:  
-                
-                elif "Almaty" in fnl_dest:
-            
-                else:     
-                            
-                        
-                        
+                    print "'I pick the most powerful country in the world! Mwouhahahaha.'"
+                    print "'Unfortunately, only San Francisco remains as a flight destination in the US today."
+                    print "'Is that ok?'"
                     
-        else:    #else receipt      
+                    ok = raw_input("> ")
+                    
+                    if ok == "yes"
+                        print "'Ok perfect. Total's 846 credits'"
+                        print "'Wow that's really cheap!'"
+                        print "'Indeed, one of the lowest prices since 2010.'"
+                        print "'Coincidence perhaps? Cuz you know... it's the end of the world soon.'"
+                        print "'Haha yeah no kidding... Anyway, let's cut to the chase; I've got many other clients.'"
+                        print "Counter lady hands the debit card machine to %s." % first
+                        print "TRANSACTION STATUS: IN PROGRESS"
+                        raw_input("3...")
+                        raw_input("2...")
+                        raw_input("1...")
+                        print "TRANSACTION STATUS: DONE."
+                        raw_input()
+                        print "You hand the machine back to the beautiful counter lady."
+                        print "She then gives you something."
+                        print "'That's your plane ticket. You will find the time of departure as well"
+                        print "as the terminal gate number. Do not throw it to the trash can. I repeat."
+                        print "DO NOT THROW IT AWAY.'"
+                        print "'Roger.'"
+                        raw_input()
+                        print "'Now hand me your passport, and while I check it, lay your luggage"
+                        print "'down there on that automatic rolling carpet.'"
+                        raw_input()
+                        print "You do as she says. Whilst looking at your passport, she suddenly stamps an empty page."
+                        print "She hands it back to you."
+                        print "'Perfect, now all that's left to do is for you to pass security, go to the designated"
+                        print "San Francisco flight terminal, and wait."
+                        print "'Ok cool thanks, I understood everything of what I gotta do.'"
+                        print "'Horray!'"
+                        raw_input()
+                        print "'Alright, I should get going. Farewell kind counter lady!'"
+                        print "'Alright, goodye traveller! Please come back in one piece from the States!'"
+                        tml()
+                                                             
+                    elif ok == "no"
+                        cntr_lady()
+                    
+                           
+                else:     
+                    print "'I'm sorry, but there are no flights for %s.'"
+                    False         
+                        
+                                           
+        else:    #else receipt   
+            print "I'm sorry my dear, but this is not what I am looking for.'"
+            cntr_lady()   
                
                 
 
