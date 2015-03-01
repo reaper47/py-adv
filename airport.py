@@ -1,5 +1,82 @@
+def dest():
+    if fnl_dest == "Vienna":
+        vienna()
+    elif fnl_dest == "Berlin":
+        berlin()
+    elif fnl_dest == "Prague":
+        prague()
+    elif fnl_dest == "United States":
+        san_francisco()
+    elif fnl_dest == "Paris":
+        paris()
+        
+        
 def tml():
-
+    
+    raw_input()
+    print "The security gate went surprisingly smoothly without a beep,"
+    print "and you were surprised that nothing went wrong."
+    print "\n"
+    print "Once this was over, you found the airport terminal"
+    print "for %s." % fnl_dest
+    print "Finding it was surprisingly smooth as well for"
+    print "the terminal television screens proved to be useful."
+    raw_input()
+    print "You sit down at a random seat, and think of what"
+    print "to do because you have 2 hours and a half to kill."
+    print "What do you want to do?"
+    
+    do = raw_input("> ")
+    
+    if "eat" in do:
+        print "You close your eyes. Seconds later, "
+        print "an intense smell of BBQ fried chicken dipped in"
+        print "vegetable oil lights of an are of your brain.\n"
+        print "Your eyes open as your robotically stand up"
+        print "and fast-walk to where the smell comes from."
+        print "Turns out to be a resaurant selling junk food."
+        print "\n"
+        print "You cannot resist the temptation and decide to"
+        print "order an extra large french fries with 2 chicken breasts."
+        print "The cost?"
+        raw_input()
+        print "43 credits."
+        raw_input()
+        print "'Hell how can this be soooo expensive. Look I'm poor you know...'"
+        print "'My dear client, you ordered 2 chicken breasts, and one extra"
+        print "large french fries. Individual chicken breast price is 17 credits,"
+        print "an extra large french fries is 6 credits, and the rest is tax.'"
+        raw_input()
+        print "'Ok then. Then explain to me why this is so goddamn expensive.'"
+        print "'That's because you are at an airport. Prices at airports are inflated.'"
+        print "'Fine... I get it now.'"
+        raw_input()
+        print "After the transaction you happily eat your order while"
+        print "your stomach stopped growling and working full-force.\n"
+        print "You go sit back down to the same spot, and wait for your flight."
+        dest()
+        
+    elif do == "wait":
+        print "You decide to wait on your seat until flight time."
+        print "Nothing special happens as you watch the wall clock rotate."
+        dest()
+    
+    
+    elif "sleep" in do:
+        print "Time flows by way too slowly, and you had a long day."
+        print "You close your eyes, and fall into deep sleep."
+        print "The announcer calls passengers to board the plane."
+        print "You remain asleep as you dream about %s." % fnl_dest
+        print "You announcer calls your name."
+        print "No buldge.\n"
+        print "The airplane leaves. You wake up three hours later."
+        over('You realize you missed your plane because you sleep, and feel stupid as you go back home...')
+        
+  
+    else:
+        print "You %s, then wait for your ride to glory."
+        dest()
+        
 
 def air1_counter():
 
@@ -29,7 +106,8 @@ def air1_counter():
         print "'Answer's the answer to the ultimate question of life, the universe and everything.'"
         print "*Counter Lady stares at %s without showing any facial expression whatsoever*" %first
         print "'Must have been a good joke to you haha! Here's another one: '"
-        print "'Develop a mathematical theory to build a functional model of the brain that is mathematically consistant and predicative rather than merely biologically inspired."
+        print "'Develop a mathematical theory to build a functional model of the brain that is"
+        print "mathematically consistant and predicative rather than merely biologically inspired."
         raw_input()
         print "'Enough with this sir! I'm presently working, and not talking about stuff nerds say in bars.'"
         print "'Let's get going with the purpose of why you showed up to this airport.'"
@@ -41,7 +119,8 @@ def air1_counter():
         raw_input()
         print "'Ya know I've always wondered deep down the power of life'"
         print "'What do you mean?'"
-        print "'You see life is, but a holy grail for one to develop their full potential, push their inner boundaries, and create great stuff they'll be remembered for.'"
+        print "'You see life is, but a holy grail for one to develop their full potential, push their inner boundaries,"
+        print "and create great stuff they'll be remembered for.'"
         print "'Uhm.... ok?'"
         print "'Developping one's full potential proves to be one of the most satisfactory experience ever.'"
         print "'What do you think of this, my lady?'" 
@@ -59,7 +138,9 @@ def air1_counter():
         
     elif "hate" in ask:
         print "*You need to vent your anger off to someone for you cannot accept how huge the airport is*"
-        print "'I hate you. You look great, and all with that hair and smile. But, I hate you you ugly little piece of ****.\nOh excuse me let me dress up sexy and work in an airport for a bunch of pervs look at how beautiful I am.\n*While raising your fist...* I no hate you; I despise you -'"
+        print "'I hate you. You look great, and all with that hair and smile. But, I hate you you ugly little piece of ****."
+        print "Oh excuse me let me dress up sexy and work in an airport for a bunch of pervs look at how beautiful I am."
+        print "*While raising your fist...* I no hate you; I despise you -'"
         print "*Counter lady presses on the concealed help button*"
         raw_input()
         print "*A bulky 6'3\" security guard arrives to counter lady's desk while %s continues to harass her*" % first
@@ -84,7 +165,8 @@ def air1_counter():
         print "'Great! Anways, so I  finally decided to travel.'"
         print "'Please hand me your check-in ticket.'"
         print "'What is that?'"
-        print "*sigh* You are supposed to check-in at that terminal over there... Check-in is basically your flight ticket scanned by the machine.'"
+        print "*sigh* You are supposed to check-in at that terminal over there... Check-in is" 
+        print "basically your flight ticket scanned by the machine.'"
         raw_input()
         print "'Oh...'"
         raw_input()
@@ -131,7 +213,8 @@ def air1_counter():
                     print "'What good is there is see in Vienna?'"
                     raw_input()
                     print "'Vienna IS the capital of music, more specifically, classical music.'"
-                    print "'Apart from that, there is the huge baroque Schonbrunn Palace, the totally majestic and grandiose St. Stephen's Cathedral, and the Ringstrasse."
+                    print "'Apart from that, there is the huge baroque Schonbrunn Palace, the totally majestic and"
+                    print "the grandiose St. Stephen's Cathedral, and the Ringstrasse."
                     print "There is a lot to do in Vienna."
                     print "Although quite small in size relativement speaking, it packs a bunch."
                     print "And it has to be one of the world's cleanest cities. No kidding.'"
@@ -179,8 +262,10 @@ def air1_counter():
                     print "'Paris is one of the world's top destinations. Expect tons of tourists."
                     print "This is not intended to be a bad thing."
                     print "Obviously, one absolutely has to check out the 301m-high Eiffel Tower from every angle."
-                    print "The louvre proves to be one robust museum to go to. The world's most mysterious painting, the Mona Lisa, lies there and is a must to see."
-                    print "Apart from that there is the Defense Headquarters, the Arche de Triomphe, the Palace of Versailles, and many, man more."
+                    print "The louvre proves to be one robust museum to go to. The world's most mysterious painting, the"
+                    print "Mona Lisa, lies there and is a must to see."
+                    print "Apart from that there is the Defense Headquarters, the Arche de Triomphe, the" 
+                    print "Palace of Versailles, and many, man more."
                     print "Totally recommended!'"
                     raw_input()
                     print "'Wow! Sounds quite impressive!'"
@@ -346,7 +431,7 @@ def air1_counter():
                     
                     ok = raw_input("> ")
                     
-                    if ok == "yes"
+                    if ok == "yes":
                         print "'Ok perfect. Total's 846 credits'"
                         print "'Wow that's really cheap!'"
                         print "'Indeed, one of the lowest prices since 2010.'"
@@ -380,7 +465,7 @@ def air1_counter():
                         print "'Alright, goodye traveller! Please come back in one piece from the States!'"
                         tml()
                                                              
-                    elif ok == "no"
+                    elif ok == "no":
                         cntr_lady()
                     
                            
@@ -535,7 +620,8 @@ def airport1():
             True
         
         elif next == "enter":
-            print "Adrenaline rushes through your veins as you anxiously enter the huge glorious airport entrance gates, not knowing what lies behind."
+            print "Adrenaline rushes through your veins as you anxiously enter the huge glorious"
+            print "airport entrance gates, not knowing what lies behind."
             True
             airtrance1()
             
