@@ -70,7 +70,8 @@ def tml():
         print "You announcer calls your name."
         print "No buldge.\n"
         print "The airplane leaves. You wake up three hours later."
-        over('You realize you missed your plane because you sleep, and feel stupid as you go back home...')
+        over("You realize you missed your plane because you sleep,",
+             "and feel stupid as you go back home...")
         
   
     else:
@@ -91,43 +92,54 @@ def air1_counter():
     ask = raw_input('> Ask something about: ")
     
     if "marriage" in ask:
-        print "'Hey counter lady, I see a calm gold ring rimmed with gold. Are you married?'"
+        print "'Hey counter lady, I see a calm gold ring rimmed 
+        print "with gold. Are you married?'"
         print "'Yes, and to a wonderul man'"
         cntr_lady()
         
     elif "math" or "mathematics" in ask:
-        print "'Hey sup. I've got a question for you. A question showing tireless endeavors of the human mind...'"
-        print "'What is %3.0f?" % (352/2+42/3+60*5-448)
+        print "'Hey sup. I've got a question for you. A question"
+        print "showing tireless endeavors of the human mind...'"
+        print "'What is %3.0f?" % (352/2+42/3+60*5-448)'"
         print "'Lemme think a 'lil about it.'"
         ans = raw_input('What is the answer?: )
         print "'The answer's %3.0f!" %ans
         print "'Not the right answer counter lady...'"
         raw_input()
-        print "'Answer's the answer to the ultimate question of life, the universe and everything.'"
-        print "*Counter Lady stares at %s without showing any facial expression whatsoever*" %first
+        print "'Answer's the answer to the ultimate question of"
+        print "life, the universe and everything.'"
+        print "*Counter Lady stares at %s without showing any facial" %first
+        print "expression whatsoever*" 
         print "'Must have been a good joke to you haha! Here's another one: '"
-        print "'Develop a mathematical theory to build a functional model of the brain that is"
-        print "mathematically consistant and predicative rather than merely biologically inspired."
+        print "'Develop a mathematical theory to build a functional"
+        print "model of the brain that is mathematically consistant"
+        print "and predicative rather than merely biologically inspired.'"
         raw_input()
-        print "'Enough with this sir! I'm presently working, and not talking about stuff nerds say in bars.'"
+        print "'Enough with this sir! I'm presently working, and not talking"
+        print "about stuff nerds say in bars.'"
         print "'Let's get going with the purpose of why you showed up to this airport.'"
         cntr_lady()
         
     elif "life" in ask:
-        print "Hello counter lady! A simple analyses of your eyes tells me your soul is as pure as paradise. Correct me if I'm wrong.'"
+        print "Hello counter lady! A simple analyses of your eyes tells me your" 
+        print "soul is as pure as paradise. Correct me if I'm wrong.'"
         print "*Counter lady blushes*"
         raw_input()
         print "'Ya know I've always wondered deep down the power of life'"
         print "'What do you mean?'"
-        print "'You see life is, but a holy grail for one to develop their full potential, push their inner boundaries,"
+        print "'You see life is, but a holy grail for one to develop their"
+        print "full potential, push their inner boundaries,"
         print "and create great stuff they'll be remembered for.'"
         print "'Uhm.... ok?'"
-        print "'Developping one's full potential proves to be one of the most satisfactory experience ever.'"
+        print "'Developping one's full potential proves to be one of" 
+        print "the most satisfactory experience ever.'"
         print "'What do you think of this, my lady?'" 
         raw_input()
-        print "'Ok, lemme get this straight. ONE. I am not your lady and never will be; look at my wedding ring.'"
+        print "'Ok, lemme get this straight. ONE. I am not your lady and never"
+        print "will be; look at my wedding ring.'"
         print "'TWO. I know what you mean and WILL reflect on it.'"
-        print "'But now is not time you see I am on my shift serving clients, and you are no exception.'"
+        print "'But now is not time you see I am on my shift serving"
+        print "clients, and you are no exception.'"
         print "'I'm sorry to say, but I got no time for this... look at the queue behind you.'"
         raw_input()
         print "*%s peers quickly behind*"
@@ -137,29 +149,37 @@ def air1_counter():
         cntr_lady()
         
     elif "hate" in ask:
-        print "*You need to vent your anger off to someone for you cannot accept how huge the airport is*"
-        print "'I hate you. You look great, and all with that hair and smile. But, I hate you you ugly little piece of ****."
-        print "Oh excuse me let me dress up sexy and work in an airport for a bunch of pervs look at how beautiful I am."
+        print "*You need to vent your anger off to someone for you" 
+        print "cannot accept how huge the airport is*"
+        print "'I hate you. You look great, and all with that hair" 
+        print "and smile. But, I hate you you ugly little piece of ****."
+        print "Oh excuse me let me dress up sexy and work in an airport"
+        print "for a bunch of pervs look at how beautiful I am."
         print "*While raising your fist...* I no hate you; I despise you -'"
         print "*Counter lady presses on the concealed help button*"
         raw_input()
-        print "*A bulky 6'3\" security guard arrives to counter lady's desk while %s continues to harass her*" % first
+        print "*A bulky 6'3\" security guard arrives to counter lady's" 
+        print "desk while %s continues to harass her*" % first
         raw_input()
         print "'You big fat son of a b*** what the f*** do you want'"
         print "*As you realise what you have just said to someone twice your meat*"
         raw_input()
-        print "'Harassing workers at the airport is a violation of %s's Airport Security Law.'" % country
-        print "'The law is the law, and you are expelled from this airport for the rest of 2012.'"
+        print "'Harassing workers at the airport is a violation" 
+        print "of %s's Airport Security Law.'" % country
+        print "'The law is the law, and you are expelled from "
+        print "this airport for the rest of 2012.'"
         raw_input()
         print "'HA! ME NO CARELESS THE WORLD WILL END ON DECEMBER 21st!'"
-        print "*Bulky security guard grabs you by the neck and throws you out of the aiport's main entrance.*"
+        print "*Bulky security guard grabs you by the neck and throws you" 
+        print "out of the aiport's main entrance.*"
         print "'Go away, and never come back.'"
         over(Well damn... What have I done? How will I explain this to my love...)
         
     else:
-        print "You determine not to ask about this; you decide to skip straight to the meat and bone of why you came to the airport."
+        print "You determine not to ask about this; you decide to skip straight" 
+        print "to the meat and bone of why you came to the airport."
         cntr_lady()   
-        
+       
     
     def cntr_lady():
         print "'Great! Anways, so I  finally decided to travel.'"
@@ -176,10 +196,12 @@ def air1_counter():
             
         receipt = raw_input("> ")
             
-        if receipt == "pull out a random receipt" or "show a random receipt" or "pull out a receipt" or "show a receipt" or "show receipt":
+        if receipt == "pull out a random receipt" or "show a random receipt" 
+                      or "pull out a receipt" or "show a receipt" or "show receipt":
             print "You show a random receipt to the clerk, thinking it'll do."
             print "*Counter lady laughs out loud*"
-            print "The funny type you are haha! Unfortunately, this is not an airplane ticket receipt."
+            print "The funny type you are haha! Unfortunately," 
+            print "this is not an airplane ticket receipt."
             raw_input()
             print "'Well, at least I tried...'"
             raw_input()
@@ -200,7 +222,8 @@ def air1_counter():
                 print "'Oooohhh.... kkk. What flights are available today?'"
                 print "'Lemme check'"
                 raw_input()
-                print "*The counter lady scans through the flight database for current available flights with empty seats...*"
+                print "*The counter lady scans through the flight database for" 
+                print "current available flights with empty seats...*"
                 raw_input()
                 print "'Ding!'"
                 raw_input()
@@ -399,8 +422,10 @@ def air1_counter():
                             print "Counter lady hands the debit card machine to %s" %first
                             print "Transaction has been successful, and %s hands it back to her."
                             raw_input()
-                            print "'Alright, now hand your passport to me, and drop your luggage on the rolling carpet here.'"
-                            print "You hand your passport to counter lady. While she checks stuff inside, you drop your luggage where demanded."
+                            print "'Alright, now hand your passport to me, and drop your luggage" 
+                            peint "on the rolling carpet here.'"
+                            print "You hand your passport to counter lady. While she checks stuff inside," 
+                            print "you drop your luggage where demanded."
                             print "'Lucky you! Such a nice stamp this will be in your passport.'"
                             print "Counter lady presses a blank page in %s's passport." % first
                             print "She hands it back to her client."
@@ -496,7 +521,8 @@ def airtrance1():
     next = raw_input("'I have no idea what to do so I'll go with: ")
     
     if airtrce_list[0] in next:   #some people
-        print "You spot a beautifully slim Caucasian dressed in blue.\nFrom afar, whe appears to have blue eyes and brown hair."
+        print "You spot a beautifully slim Caucasian dressed in blue."
+        print "From afar, whe appears to have blue eyes and brown hair."
         raw_input()
         print "'!!!'\n"
         print "'She seems to be travelling alone.'\n"
@@ -509,13 +535,17 @@ def airtrance1():
         print "You approach him.\n"
         print "'Greetings traveller! Welcome to %s's most majestic airport!'" %country
         raw_input()
-        print "'Good morning sir, how does it work in here?\nIt is my first time travelling, and thus setting foot in an airport.'"
-        print "\n'Take it easy traveller, life is full of mysteries.\nAnd there is a first to everyone.'"
-        print "'As I can see, you are not familiar with how airports function.\nBasically, you see that line over there?'"
+        print "'Good morning sir, how does it work in here?\nIt is my first time" 
+        print "travelling, and thus setting foot in an airport.'"
+        print "\n'Take it easy traveller, life is full of mysteries."
+        print "And there is a first to everyone.'"
+        print "'As I can see, you are not familiar with how airports function."
+        print "Basically, you see that line over there?'"
         raw_input()
         print "\n'Yeah, I do sir.'
         raw_input()       
-        print "Ok good. Well, son, this is where the counter to check-in, and drop your luggage is.'"
+        print "Ok good. Well, son, this is where the counter to check-in,"
+        print "and drop your luggage is.'"
         print "'Go on ahead traveller."
         raw_input()
         print "'Thank you officer, I appreciate your advice.'"
@@ -540,7 +570,8 @@ def airtrance1():
             print "'I am new here, and I have never travelled. Where do I begin?'"
             raw_input()
             print "'It's rather simple young man.'\n"
-            print "'Basically, join the queue to your selected airline. The rest will fall to place like a feather settling onto the ground'"
+            print "'Basically, join the queue to your selected airline. The rest will fall"
+            print "to place like a feather settling onto the ground'"
             raw_input()
             print "'Quite poetic you are! I like it.'"
             print "'Anyways, thank you for the information! I shall go.'\n Farewell young lady!'"
@@ -550,9 +581,11 @@ def airtrance1():
         else:
             print "'Sup traveller? Welcome to %s's majestic airport!'"  %country
             raw_input()
-            print "'Hey, It's my first time travelling, and I am not too familiar of what I'm supposed to do. Can you guide me?'"
+            print "'Hey, It's my first time travelling, and I am not too familiar of what"
+            print "I'm supposed to do. Can you guide me?'"
             raw_input()
-            print "'Well, I can't hold your hand and guide you all the way through, but I cetainly can tell you what to do.'"
+            print "'Well, I can't hold your hand and guide you all the way through," 
+            print "but I cetainly can tell you what to do.'"
             print "'Basically, join that queue over there.'"
             raw_input()
             print "'Ok thanks.'"
@@ -564,7 +597,8 @@ def airtrance1():
             air1_counter()
             
     def air1_causian(): 
-        print "You close your eyes as a giant gush of wind flows down your nose as you sniff the lustrous divine smells."
+        print "You close your eyes as a giant gush of wind flows down your nose" 
+        print "as you sniff the lustrous divine smells."
         print "Images of what might happened in her past flash through your mind..."
         print "As you bob your head slowly whilst still having eyes closed."
         print "You start to salivate."
@@ -580,16 +614,18 @@ def airtrance1():
         print "'I'm lost on what I'm supposed to do. Well, kind of."
         raw_input()
         print "A couple seconds later...\n"
-        print "'I'll forget that I've seen a total stranger salivate as he day dreams.'"
+        print "'I'll forget that I've seen a total stranger salivate"
+        print "as he day dreams.'"
         print "'Agreed. I'll help you.'"
         print "'Basically you see those counters and queues over there?'"
         raw_input()
         print "'Yeah I see them.'"
         raw_input()
-        print "'Well, you simply gotta go to your desired airline to check-in.'"
-        print "'The rest will fall into place.'"
+        print "'Well, you simply gotta go to your desired airline to check-in,"
+        print "and the rest will fall into place.'"
         raw_input()
-        print "'Cool thanks! By the way, are you an experienced traveller of the seven seas?'"
+        print "'Cool thanks! By the way, are you an experienced traveller 
+        print "of the seven seas?'"
         raw_input()
         print "'Indeed I am!'"
         raw_input()
@@ -599,7 +635,8 @@ def airtrance1():
         raw_input()
         print "'Anytime! Farewell, newb.'"
         raw_input()
-        print "You take one last look at her to imprint her physcial divinity to your mind."
+        print "You take one last look at her to imprint her physcial 
+        print "divinity to your mind."
         print "You then walk towards the next big step..."
         air1_counter()
                        
@@ -616,7 +653,12 @@ def airport1():
     next = raw_input("> ")
     
         if next == "leave": 
-            over("'This is simply too huge for me.. I will lose myself inside the airport, and someone will kidnap me.'\n%s returns home, and lives his live without pushing through %s's limits." %(first, first))
+            over("""
+                  'This is simply too huge for me.. I will lose myself,
+                  inside the airport, and someone will kidnap me.'\n%s, 
+                 "returns home, and lives his live without pushing through, 
+                 "%s's limits. """ %(first, first))
+               
             True
         
         elif next == "enter":
@@ -627,7 +669,8 @@ def airport1():
             
         else:
             print "*%s gazes at the airport's exterieur architecture.*" %first
-            print "'Man, this airport architecture has to be some of the best I've seen... majestic, yet scary at the same time. A true art!'"
+            print "'Man, this airport architecture has to be some of the best I've seen..."
+            print "majestic, yet scary at the same time. A true art!'"
             print "*shrugs*"
             print "'Ok, I gotta choose what I want to do."
                                        
