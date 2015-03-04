@@ -1,13 +1,43 @@
 def dest():
+    print "This is it. Brace yourself for this is only the beginning!"
+    print "Your heart pounds to rates never experienced before, as"
+    print "you enter the airplane.\n"
+    print "You sit down, and excitedly wait until you arrive at %s." % fnl_dest
+    print "\n\n\n\n\n\n\n"
+    
     if fnl_dest == "Vienna":
+        print '*' * (61-12)
+        print "                Diary of the Void:    "
+        print "        Chapter 3 - TBD" 
+        print '*' * (61-12)  
         vienna()
+        
     elif fnl_dest == "Berlin":
+        print '*' * (61-12)
+        print "                Diary of the Void:    "
+        print "        Chapter 3 - TBD" 
+        print '*' * (61-12) 
         berlin()
+        
     elif fnl_dest == "Prague":
+        print '*' * (61-12)
+        print "                Diary of the Void:    "
+        print "        Chapter 3 - TBD" 
+        print '*' * (61-12) 
         prague()
+        
     elif fnl_dest == "United States":
+        print '*' * (61-12)
+        print "                Diary of the Void:    "
+        print "        Chapter 3 - TBD" 
+        print '*' * (61-12) 
         san_francisco()
+        
     elif fnl_dest == "Paris":
+        print '*' * (61-12)
+        print "                Diary of the Void:    "
+        print "        Chapter 3 - TBD" 
+        print '*' * (61-12) 
         paris()
         
         
@@ -75,7 +105,7 @@ def tml():
         
   
     else:
-        print "You %s, then wait for your ride to glory."
+        print "You %s, then wait for your ride to glory." % do
         dest()
         
 
@@ -657,8 +687,7 @@ def airport1():
                   'This is simply too huge for me.. I will lose myself,
                   inside the airport, and someone will kidnap me.'\n%s, 
                  "returns home, and lives his live without pushing through, 
-                 "%s's limits. """ %(first, first))
-               
+                 "%s's limits. """ %(first, first)) 
             True
         
         elif next == "enter":

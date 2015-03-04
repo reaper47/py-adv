@@ -1,5 +1,4 @@
-from sys import argv
-from sys import exit
+from sys import argv, exit
 
 game, first, last, age, country = argv
 
@@ -20,8 +19,7 @@ def start():
     raw_input()
     print "Let the journey begin...\n"
     raw_input()
-    
-    
+       
     print "The year is 2012. You are home alone drinking beer on a friday night."
     print "The time?"
     raw_input()
@@ -47,7 +45,8 @@ def start():
     print "'Honey? What the hell happened?'"
     print "*You look at the shattered glass and at the beer bottles lying around*"
     print "'God dammit... What have I done again?'"
-    print "'Look I was alone yesterday night 'cuz you were out with your friends.\n I had a god dammned rough day yesterday at work --'"
+    print "'Look I was alone yesterday night 'cuz you were out with your friends."
+    print "I had a god dammned rough day yesterday at work --'"
     raw_input()
     print "'Alcoholic'"
     print "'I am NOT an alcoholic, baby. It is YOU who did NOT invite me yesterday.'"
@@ -59,14 +58,19 @@ def start():
     print "'My love! I was cleaning up, and something popped through my head!'"
     print "'How about we take a week off, and travel together to a destination!!??'"
     print "'Honey! This is a brilliant idea, but... but who will take care of the child?'"
-    print "*Damn I should have not drank yesterday in the living room.\nBad influence to Robert*"
+    print "*Damn I should have not drank yesterday in the living room."
+    print "Bad influence to Robert*"
     print "'I... I seriously don't know...'"
-    print "\n*Honey hugs %s and whispers*\n'Look %s, live the dream you've always dreamnt.You are 32 years old.\n'I think it would be time for you to fulfill it.'" %(first, first)
+    print "\n*Honey hugs %s and whispers*\n'Look %s, live the dream you've always dreamnt." % first
+    print "You are 32 years old.\n'I think it would be time for you to fulfill it.'" % first
     print "\n*%s presses chin on honey's shoulder while hugging*" %first
     print "'But I want to go with.'"
-    print "'Courage my love, but this time I can't. Remember I've got no vacation time left this year.\nAnd our child needs someone.'\n'Now, %s, please, Christmas is coming soon. It would be nice to bring \nnice pictures to our child, Robert!" %first
+    print "'Courage my love, but this time I can't. Remember I've got no vacation time left" 
+    print "this year.\nAnd our child needs someone.'\n'Now, %s, please, Christmas" % first
+    print "is coming soon. It would be nice to bring \nnice pictures to our child, Robert!" 
     print "'Ok... True.'"
-    print "'Once we're in 2013, I'll take two weeks off so that you and I can travel somewhere.\nTrust me, go somewhere you've always dreamnt of going to!'"
+    print "'Once we're in 2013, I'll take two weeks off so that you and I can travel somewhere."
+    print "Trust me, go somewhere you've always dreamnt of going to!'"
     raw_input()
     print "Life is short %s, life is short." %first
     raw_input()
@@ -82,14 +86,20 @@ def start():
         
     while True:
         next = raw_input("> ")
+        
         if "stay" in next: 
-            over("You are too afraid and insecure  of leaving without your lover.\nYou hence stay home, and enjoy your life."
+            over("You are too afraid and insecure  of leaving without your lover.\nYou hence stay home,", 
+                 "and enjoy your life.")
+                 
         if next == "leave":
-            print "You feel afraid and anxious of travelling alone for the first time.\nBut, something's driving you... an invisible force.\nXenophobia's striking you, yet you resist and push forth"
+            print "You feel afraid and anxious of travelling alone for the first time."
+            print "But, something's driving you... an invisible force. Xenophobia's striking you," 
+            print "yet you resist and push forth"
             raw_input()
             print "You leave the house, and drive to the airport."
             True 
             airport1()
+            
         else:
             print "*I gotta decide something*"  
                  
