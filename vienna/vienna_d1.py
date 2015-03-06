@@ -39,7 +39,7 @@ class AirportV(Scene):
         raw_input("2...")
         raw_input("1...")
         print "GGRGREJFGWJB WRKS SSSCCHHAAAA HOOOO WHAAAA"
-        print "That impact sound and breaking sounds scare the hell out of you."
+        print "That impact and breaking sounds scare the hell out of you."
         raw_input()
         print "The plane slows down to normal ground speed."
         print "\nYou smile uncontrollably as you think you survived."
@@ -51,6 +51,67 @@ class AirportV(Scene):
         raw_input()
         print "5 minutes later..."
         raw_input()
+        print "The plane stalls, and the green light turned on."
+        print "It is now time to step through the light, out of the plane."
+        print "\nYou finally step, and follow the herd while trying to"
+        print "follow signs written in a weird-looking language with"
+        print "alphabet letters arranged in a way you don't understand."
+        print "'It must be French. Yeah, definitely French....'"
+        raw_input("A couple of minutes later...")
+        print "A terminal screen catches your eye as you wonder"
+        print "where you are supposed to go for the transfer."
+        print "'Gate 43K. Ok, now where the hell is that gate dammit?'"
+        print "\nYou notice directions to several gates, and you follow" 
+        print "the 36-49 one."
+        raw_input("A couple of minutes later walking on a red carpet...")
+        print "You whisper, 'God... What the hell is that?' as"
+        print "an endless queue of people waiting to pass the security.\n"
+        print "'Holy hell, now we're talking... And I THOUGHT %s's" % country 
+        print "Security check was insane...'"
+        raw_input()
+        print "You line up. And wait. Hear the piercing sounds of luggage"
+        print "being transported. Hear the weeps of small children crying"
+        print "for their toys. Hear a bunch of languages.\n"
+        print "As you look up to the ceiling..."
+        print "'What the hell... Is wrong with the world...'"
+        print "You conclude you aren't used to this amount of humans."
+        raw_input("After a long wait...")
+        print "You finally pass the security gate successfully, and rush"
+        print "towards Gate 43K as this is the gate to your plane 
+        print "towards Vienna."
+        print "\nYou sit down on a comfortable waiting chair for..."
+        raw_input("How long???")
+        print "60 minutes. 60 painful minutes of hearing a bunch of"
+        print "languages without knowing what the people are saying..."
+        raw_input()
+        print "The time hath finally come. It is now time to board"
+        print "The transfer plane to Vienna."
+        raw_input()
+        print "You board the plane."
+        print "You sit down at your designated spot adjacent to the window."
+        print "And you wait for takeoff... And enjoy the ride"
+        raw_input()
+        raw_input("A glorious hour after...")
+        print "'Captain speaking. We have now arrived at Vienna,"
+        print "oh mighty Vienna. You can now exit the plane, and enjoy"
+        print "your stay at Vienna, oh might Vienna!\n"
+        print "*As usual, pilots repeat what they said to their native language*"
+        print "\nKapitän sprechen. Wir haben nun in Wien, oh mächtigen"
+        print "Wien angekommen. Sie können nun das Flugzeug zu verlassen,"
+        print "und genießen Sie Ihren Aufenthalt in Wien, oh könnte Wien!"
+        print "\n"
+        raw_input()
+        print "Powerful words shiver the neurons of your brain."
+        print "Very powerful emotions suddenly strike you as you"
+        print "step outside the plane, and into the airport of Vienna."
+        print "You feel so powerful and happy all of sudden; a powerful rush"
+        print "of positive energy flows through you."
+        raw_input()
+        print "'OH MY GOD!!!'"
+        raw_input()
+        print "'I feel soooo.... GREAT!'"
+        raw_input()
+             
         
         
        
